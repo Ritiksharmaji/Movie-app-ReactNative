@@ -60,5 +60,29 @@ clcik the command in ternimal as: npm run reset-project
 41) ![alt text](image-9.png)
 42) 
 ## ----------- Routing & Navigation ------------------ 
+1) create a router in react native as same as next js 
+2) see the simple example for it.
+3) ![alt text](image-10.png)
+4) ![alt text](image-11.png)
+5) output is 
+6) ![alt text](image-12.png)
+7) ![alt text](image-13.png)
+8) now creating Dynemic routing 
+9) ![alt text](image-14.png)
+10) ![alt text](image-15.png)
+11) ![alt text](image-16.png)
+12) ![alt text](image-17.png)
+13) ![alt text](image-18.png)
+14) ![alt text](image-19.png)
+
+## ------------ now we are going to use the route grouping  ----------------------
+15) ![alt text](image-20.png)
+16) we are going to create four tabs in our project Home, search, profile, and saved for that we need to create each route so create a folder and  others based on the group route feacture of react native. 
+
+17)  now paste the index.tsx to that group route folder becuse there shoulb be only one index.tsx not more than one.
+18) ![alt text](image-21.png)
+19) ![alt text](image-22.png)
+20) ![alt text](image-23.png)
+21) 
 
 
