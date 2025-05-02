@@ -33,5 +33,32 @@ clcik the command in ternimal as: npm run reset-project
 17) then start the application using: npm expo start 
 18) ![alt text](ProjectImage/image-7.png)
 19) ![alt text](ProjectImage/image-8.png)
-20) now till now our project is runing but now our job is to setup the responsive feacacutre also in react js we are using the tailwings and here we will use the nativeWind for mobile application
-21) 
+20) now till now our project is runing but now our job is to setup the responsive feacacutre also in react js we are using the tailwings and here we will use the nativeWind for mobile application link for : https://www.nativewind.dev/
+21) npm install nativewind tailwindcss react-native-reanimated react-native-safe-area-context 
+22) after succeffull install above dependecy we need to configure the tailwings css to our porject for that run the command in ternimal as : npx tailwindcss init
+23) copy the setup code from the website and paste in the tailwind.config.js file
+24) ![alt text](image.png)
+25) ![alt text](image-1.png)
+26) create a gloable style file in app folder and paste the code 
+27) ![alt text](image-2.png)
+28) ![alt text](image-3.png)
+29) now adding the Add the Babel preset: babel.config.js file
+30) Modify your metro.config.js: for that first see either this file is there or not if not then run the commands as: npx expo customize metro.config.js then it will create this file then copy the code from the website and paste there.
+31) ![alt text](image-4.png)
+32) create this file: nativewind-env.d.ts file to enable the type script to recognize the tailwinds css classes and previending etc. 
+33) now close the application and again re-start with clear the data for that run the commands in ternimal as: npx expo start --clear
+34) after runing the application in press w to run it in browesr after the if wnat to press r to reload tha application
+35) now we can remove the css from the app.js and we can write the tailwinds css code as below
+36) ![alt text](image-5.png)
+37) ![alt text](image-6.png)
+38) ![alt text](image-7.png)
+39) in place of giving each time color for each and every text and paragram and on we can define a constant color which will be used over our application for that we need to use the tailwind.config.js file in that in the theme: {
+    extend: {},
+  }, 
+   in hte extend we need to define the color and the name which we will use in our application
+40) ![alt text](image-8.png)
+41) ![alt text](image-9.png)
+42) 
+## ----------- Routing & Navigation ------------------ 
+
+
