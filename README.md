@@ -83,6 +83,8 @@ clcik the command in ternimal as: npm run reset-project
 18) ![alt text](image-21.png)
 19) ![alt text](image-22.png)
 20) ![alt text](image-23.png)
-21) 
+21) ![alt text](image-24.png)
+22) done with Routing & Navigation 
+## ---------------  Customize App Title & Icon --------------------
 
 
